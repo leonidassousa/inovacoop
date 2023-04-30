@@ -1,0 +1,52 @@
+ /* Estilo para a seção do carrossel de produtos */
+ .carrossel-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0;
+  }
+  
+  .produto {
+    width: calc(33.33% - 20px);
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .produto img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .produto h2 {
+    margin: 10px 0;
+  }
+  
+  .botao-comprar {
+    background-color: #0066ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .botao-comprar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .botao-comprar:hover {
+    background-color: #003399;
+  }
+    .product-carousel {
+      white-space: nowrap;
+      overflow-x: auto;
+      overflow-y: hidden;
+      height: 140px;
+    }
+  
+    .product-carousel img {
+      display: inline-block;
+      height: 100%;
+      margin-right: 10px;
+    }
